@@ -38,7 +38,7 @@ const Contact = () => {
       }}
     >
       <SectionHeading>Contact Me</SectionHeading>
-      <p className="text-gray-700 -mt-6">
+      <p className="text-gray-800 -mt-6 dark:text-gray-400">
         Please contact me directly through{" "}
         <a className="underline" href="mailto:leslysoftwarespecialis@gmail.com">
           leslysoftwarespecialist@gmail.com
