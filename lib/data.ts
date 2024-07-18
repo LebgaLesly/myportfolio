@@ -6,6 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 
 //import images
 import portfolio from "@/public/Images/portfolio.png";
+import portfolio2 from "@/public/Images/portfolio2.png";
 import quickandeasy from "@/public/Images/QuickAndEasy.png";
 import quickmatch from "@/public/Images/QM.png";
 import reina from "@/public/Images/Reina.png";
@@ -63,6 +64,7 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2024",
   },
+  
   {
     title: "Frontend Developer",
     location: "South Africa",
@@ -80,6 +82,9 @@ export const projectsData = [
       " A collection of standout work samples showcasing my skills and expertise in as a Full stack developer. Demonstrates creativity, problem-solving abilities, and quality results",
     tags: ["ReactJs", "TailwindCss", "Aws"],
     imageUrl: portfolio,
+    code: "https://github.com/LebgaLesly/Portfolio",
+    demo: 'https://master.dele0753ungcn.amplifyapp.com'
+  
   },
   {
     title: "Quick and Easy",
@@ -87,6 +92,8 @@ export const projectsData = [
       "Designed and developed a fully functional e-commerce website using basic HTML, CSS, and JavaScript.",
     tags: ["HTML", "CSS", "Javascript", "Aws"],
     imageUrl: quickandeasy,
+    code: "https://github.com/LebgaLesly/Portfolio",
+    demo: 'https://master.dele0753ungcn.amplifyapp.com'
   },
   {
     title: "Technet",
@@ -94,6 +101,17 @@ export const projectsData = [
       "Designed and developed a fully functional Full Stack e-commerce website using the MERN stack",
     tags: ["React", "Redux", "ExpreeJs", "Tailwind", "MongoDB", "AWS"],
     imageUrl: technet,
+    code: "https://github.com/LebgaLesly/Portfolio",
+    demo: 'https://master.dele0753ungcn.amplifyapp.com'
+  },
+  {
+    title: "Portfolio",
+    description:
+      " A collection of standout work samples showcasing my skills and expertise in as a Full stack developer. Demonstrates creativity, problem-solving abilities, and quality results",
+    tags: ["NextJs", "TailwindCss", "Framer Motion", "Vercel", "Typescript"],
+    imageUrl: portfolio2,
+    code: "https://github.com/LebgaLesly/Portfolio",
+    demo: 'https://master.dele0753ungcn.amplifyapp.com'
   },
   {
     title: "Quick and Match",
@@ -101,6 +119,8 @@ export const projectsData = [
       "Designed and developed a matching game  using plain Jvascript, HTML and CSS",
     tags: ["HTML", "CSS", "Javascript", "AWS"],
     imageUrl: quickmatch,
+    code: "https://github.com/LebgaLesly/Portfolio",
+    demo: 'https://master.dele0753ungcn.amplifyapp.com'
   },
   {
     title: "Reina",
@@ -108,6 +128,8 @@ export const projectsData = [
       "Designed and developed a landing page using basic HTML, CSS, and JavaScript",
     tags: ["HTML", "CSS", "Javascript", "AWS"],
     imageUrl: reina,
+    code: "https://github.com/LebgaLesly/Portfolio",
+    demo: 'https://master.dele0753ungcn.amplifyapp.com'
   },
 ] as const;
 
