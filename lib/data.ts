@@ -110,7 +110,7 @@ export const projectsData = [
       " A collection of standout work samples showcasing my skills and expertise in as a Full stack developer. Demonstrates creativity, problem-solving abilities, and quality results",
     tags: ["NextJs", "TailwindCss", "Framer Motion", "Vercel", "Typescript"],
     imageUrl: portfolio2,
-    code: "https://github.com/LebgaLesly/Portfolio",
+    code: "https://github.com/LebgaLesly/myportfolio",
     demo: 'https://leslyportfolio.vercel.app/'
   },
   {
