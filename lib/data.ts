@@ -101,8 +101,8 @@ export const projectsData = [
       "Designed and developed a fully functional Full Stack e-commerce website using the MERN stack",
     tags: ["React", "Redux", "ExpreeJs", "Tailwind", "MongoDB", "AWS"],
     imageUrl: technet,
-    code: "#",
-    demo: 'https://github.com/LebgaLesly/TechNet'
+    code: "https://github.com/LebgaLesly/TechNet",
+    demo: '#'
   },
   {
     title: "Portfolio",
