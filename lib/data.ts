@@ -129,7 +129,7 @@ export const projectsData = [
     tags: ["HTML", "CSS", "Javascript", "AWS"],
     imageUrl: reina,
     code: "https://github.com/LebgaLesly/Mi-Reina",
-    demo: 'https://master.dele0753ungcn.amplifyapp.com'
+    demo: 'https://lebgalesly.github.io/Mi-Reina/'
   },
 ] as const;
 
