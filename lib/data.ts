@@ -85,7 +85,9 @@ export const projectsData = [
       "Built a full-stack web app using Next.js, Tailwind CSS, and Appwrite for authentication, database, and server-side functions. Optimized for performance with SSR and SSG.",
     tags: ["ReactJs", "TailwindCss", "Aws"],
     imageUrl: livquiz,
-    demo: 'https://livquiz.com/'
+    demo: 'https://livquiz.com/',
+    code: "",
+    
   
   },
   {
@@ -94,7 +96,8 @@ export const projectsData = [
       "Developed a responsive UI with Next.js and Tailwind CSS, focusing on clean design, accessibility, and mobile-first responsiveness.",
     tags: ["ReactJs", "TailwindCss", "Aws"],
     imageUrl: association,
-    demo: 'https://association-peach.vercel.app/'
+    demo: 'https://association-peach.vercel.app/',
+    code: "",
   
   },
   {
