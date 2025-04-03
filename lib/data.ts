@@ -11,6 +11,9 @@ import quickandeasy from "@/public/Images/QuickAndEasy.png";
 import quickmatch from "@/public/Images/QM.png";
 import reina from "@/public/Images/Reina.png";
 import technet from "@/public/Images/TechNet.png";
+import livquiz from "@/public/Images/livquiz.png";
+import association from "@/public/Images/association.png";
+
 
 export const links = [
   {
@@ -57,25 +60,43 @@ export const experiencesData = [
     date: "2022 - 2023",
   },
   {
-    title: "Software Engineer",
+    title: "Software Engineer Intern",
     location: "Douala, Cameroon",
     description:
       "I worked as a software enginner in a company called Hebron Global. Here, I worked both on mobile and web apps",
     icon: React.createElement(FaReact),
-    date: "2024",
+    date: "Jan 2024 - July 2024",
   },
   
   {
-    title: "Frontend Developer",
-    location: "South Africa",
+    title: "Full Stack Developer",
+    location: "Remote, Canada",
     description:
-      "I am currently working as a frontend developer at a start-up located in south africa. I build intuitive user interfaces using React and NextJs ",
+      "Created visually appealing user interfaces using NextJs, Redux and Tailwind CSS and ensured responsive design and compatibility across diﬀerent devices and browsers. ",
     icon: React.createElement(FaReact),
-    date: "2024 - Present",
+    date: "July 2024 - Jan 2025",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "LivQuiz",
+    description:
+      "Built a full-stack web app using Next.js, Tailwind CSS, and Appwrite for authentication, database, and server-side functions. Optimized for performance with SSR and SSG.",
+    tags: ["ReactJs", "TailwindCss", "Aws"],
+    imageUrl: livquiz,
+    demo: 'https://livquiz.com/'
+  
+  },
+  {
+    title: "BOBA USA",
+    description:
+      "Developed a responsive UI with Next.js and Tailwind CSS, focusing on clean design, accessibility, and mobile-first responsiveness.",
+    tags: ["ReactJs", "TailwindCss", "Aws"],
+    imageUrl: association,
+    demo: 'https://association-peach.vercel.app/'
+  
+  },
   {
     title: "Portfolio",
     description:
@@ -83,7 +104,7 @@ export const projectsData = [
     tags: ["ReactJs", "TailwindCss", "Aws"],
     imageUrl: portfolio,
     code: "https://github.com/LebgaLesly/Portfolio",
-    demo: 'https://master.dele0753ungcn.amplifyapp.com'
+    demo: 'https://portfolio-ten-red-74.vercel.app/'
   
   },
   {
@@ -96,18 +117,9 @@ export const projectsData = [
     demo: 'https://master.d2psjnkuhr5rnm.amplifyapp.com'
   },
   {
-    title: "Technet",
-    description:
-      "Designed and developed a fully functional Full Stack e-commerce website using the MERN stack",
-    tags: ["React", "Redux", "ExpreeJs", "Tailwind", "MongoDB", "AWS"],
-    imageUrl: technet,
-    code: "https://github.com/LebgaLesly/TechNet",
-    demo: '#'
-  },
-  {
     title: "Portfolio",
     description:
-      " A collection of standout work samples showcasing my skills and expertise in as a Full stack developer. Demonstrates creativity, problem-solving abilities, and quality results",
+    " A collection of standout work samples showcasing my skills and expertise in as a Full stack developer. Demonstrates creativity, problem-solving abilities, and quality results",
     tags: ["NextJs", "TailwindCss", "Framer Motion", "Vercel", "Typescript"],
     imageUrl: portfolio2,
     code: "https://github.com/LebgaLesly/myportfolio",
@@ -116,20 +128,29 @@ export const projectsData = [
   {
     title: "Quick Match",
     description: 
-      "Designed and developed a matching game  using plain Jvascript, HTML and CSS",
+    "Designed and developed a matching game  using plain Jvascript, HTML and CSS",
     tags: ["HTML", "CSS", "Javascript", "AWS"],
     imageUrl: quickmatch,
     code: "https://github.com/LebgaLesly/Quick_Match",
-    demo: '#'
+    demo: 'https://lebgalesly.github.io/Quick_Match/'
   },
   {
     title: "Reina",
     description:
-      "Designed and developed a landing page using basic HTML, CSS, and JavaScript",
+    "Designed and developed a landing page using basic HTML, CSS, and JavaScript",
     tags: ["HTML", "CSS", "Javascript", "AWS"],
     imageUrl: reina,
     code: "https://github.com/LebgaLesly/Mi-Reina",
     demo: 'https://lebgalesly.github.io/Mi-Reina/'
+  },
+  {
+    title: "Technet",
+    description:
+      "Designed and developed a fully functional Full Stack e-commerce website using the MERN stack",
+    tags: ["React", "Redux", "ExpreeJs", "Tailwind", "MongoDB", "AWS"],
+    imageUrl: technet,
+    code: "https://github.com/LebgaLesly/TechNet",
+    demo: '#'
   },
 ] as const;
 
