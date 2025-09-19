@@ -13,6 +13,8 @@ import reina from "@/public/Images/Reina.png";
 import technet from "@/public/Images/TechNet.png";
 import livquiz from "@/public/Images/livquiz.png";
 import association from "@/public/Images/association.png";
+import carefirst from "@/public/Images/carefirst.png";
+import edubridge from "@/public/Images/edubridge.png";
 
 
 export const links = [
@@ -53,11 +55,11 @@ export const experiencesData = [
   },
   {
     title: "Frontend Developer",
-    location: "Texas",
+    location: "Remote, Texas",
     description:
       "While pursiung my certifications, i worked as a frontend developer at ProfuseCC",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
+    date: "2022 - Current",
   },
   {
     title: "Software Engineer Intern",
@@ -80,12 +82,34 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "CareFirst",
+    description:
+      "Built a full-stack web app using Next.js, Tailwind CSS, and Appwrite for authentication, database, and server-side functions. Dashboard system embedded.",
+    tags: ["ReactJs", "TailwindCss", "Appwrite"],
+    imageUrl: carefirst,
+    demo: 'https://care-first.vercel.app/',
+    code: "",
+    
+  
+  },
+  {
     title: "LivQuiz",
     description:
       "Built a full-stack web app using Next.js, Tailwind CSS, and Appwrite for authentication, database, and server-side functions. Optimized for performance with SSR and SSG.",
     tags: ["ReactJs", "TailwindCss", "Aws"],
     imageUrl: livquiz,
     demo: 'https://livquiz.com/',
+    code: "",
+    
+  
+  },
+  {
+    title: "Edubridge",
+    description:
+      "Building  a full-stack web app using Next.js, Tailwind CSS, and Appwrite for authentication, database, and server-side functions. Dashboard system embedded.",
+    tags: ["ReactJs", "TailwindCss", "Appwrite"],
+    imageUrl: edubridge,
+    demo: 'https://edu-bridge-one.vercel.app/',
     code: "",
     
   
@@ -110,15 +134,7 @@ export const projectsData = [
     demo: 'https://portfolio-ten-red-74.vercel.app/'
   
   },
-  {
-    title: "Quick and Easy",
-    description:
-      "Designed and developed a fully functional e-commerce website using basic HTML, CSS, and JavaScript.",
-    tags: ["HTML", "CSS", "Javascript", "Aws"],
-    imageUrl: quickandeasy,
-    code: "https://github.com/LebgaLesly/E-commerce-Quick-and-Easy-",
-    demo: 'https://master.d2psjnkuhr5rnm.amplifyapp.com'
-  },
+  
   {
     title: "Portfolio",
     description:
@@ -153,7 +169,7 @@ export const projectsData = [
     tags: ["React", "Redux", "ExpreeJs", "Tailwind", "MongoDB", "AWS"],
     imageUrl: technet,
     code: "https://github.com/LebgaLesly/TechNet",
-    demo: '#'
+    demo: ''
   },
 ] as const;
 
@@ -163,6 +179,7 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "Appwrite",
   "Next.js",
   "Node.js",
   "Git",
